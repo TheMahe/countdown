@@ -205,3 +205,30 @@ li span {
     font-size: 40px;
   }
 }
+/* BEGIN: Additional Styling */
+.container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input:focus {
+  border-color: #006959;
+}
+
+button:active {
+  background: #00594d;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  li span {
+    font-size: 30px;
+  }
+}
+/* END: Additional Styling */
